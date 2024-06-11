@@ -128,20 +128,18 @@ main{
     align-items: center;    
 }
 
-/*MEDIA QUERIES - Tablet */
+/*MEDIA QUERIES - Tablet 
+
+grid system - EXCLUSIVAMENTE DE BS
+grid layout - display grid, row-cols-area + media querie
+html 👉 header-main-footer
+
+
+
+*/
 @media (max-width: 768px) {
-    .grid-container{
-        grid-template-columns:repeat(2, 1fr);
-        grid-template-rows: 0.1fr 0.4fr 1fr 0.5fr 0.2fr;
-        grid-template-areas: 
-        "header      header  "
-        "bg-banner   bg-banner"
-        "main         main "
-        "aside        aside "
-        "footer       footer "
-    ;
-    }
-  }
+ 
+}
 
 /*MEDIA QUERIES - Mobile */
 @media (max-width: 480px) {
