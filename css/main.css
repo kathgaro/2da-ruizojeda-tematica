@@ -1,0 +1,120 @@
+/*M A P A S*/
+.kfz-xs {
+  font-size: 10em;
+  color: #000000;
+  font-weight: 900;
+}
+
+.kfz-sm {
+  font-size: 14em;
+  color: #000000;
+  font-weight: 900;
+}
+
+.kfz-md {
+  font-size: 18em;
+  color: #000000;
+  font-weight: 900;
+}
+
+.kfz-xl {
+  font-size: 22em;
+  color: #000000;
+  font-weight: 900;
+}
+
+.color-rrss-instagram {
+  color: #d94077;
+}
+.color-rrss-instagram:hover {
+  box-shadow: 1px 1px 1px 1px #d94077;
+}
+
+.color-rrss-threads {
+  color: #07076e;
+}
+.color-rrss-threads:hover {
+  box-shadow: 1px 1px 1px 1px #07076e;
+}
+
+.color-rrss-whatsapp {
+  color: #671313;
+}
+.color-rrss-whatsapp:hover {
+  box-shadow: 1px 1px 1px 1px #671313;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+/*header*/
+.encabezado {
+  background-color: #fafafa;
+  display: flex;
+  grid-area: header;
+}
+
+.contenedor-card {
+  width: 20em;
+  border-radius: 16px;
+  border: 1px solid #000000;
+  margin-bottom: 1em;
+}
+.contenedor-card-img {
+  width: 100%;
+  border-radius: 16px;
+}
+.contenedor-description {
+  color: #000000;
+  margin: 1em;
+  font-weight: 400;
+}
+.contenedor-btn {
+  background-color: #000000;
+  color: #f0eded;
+  border-radius: 10px;
+  padding: 0.5em;
+  margin: 1em;
+  width: 90%;
+}
+
+/*footer*/
+.pie {
+  grid-area: footer;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.pie .w-img {
+  width: 120px;
+}
+.pie .k__tw {
+  width: 16px;
+  height: 16px;
+}
+.pie .k__fb {
+  width: 16px;
+  height: 16px;
+}
+.pie .k__wsp {
+  width: 16px;
+  height: 16px;
+}
+.pie .k__lkn {
+  width: 16px;
+  height: 16px;
+}
+
+.clase {
+  border: 1px black solid;
+}
+.clase:hover {
+  background-color: red;
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,51 @@
+// Diseñador nos da los datos de este archivo
+//Tipografia - fonts
+$title-principal:  "Montserrat", sans-serif;
+$title-second:  "Montserrat", sans-serif;
+$parrafos:  "Montserrat", sans-serif;
+//--variables
+$light: 300;
+$regular: 400;
+$bold: 700;
+$extra-bold: 900;
+
+//Colores
+$color-primary:  #000000;
+$color-second:  #f0edede0;
+//Background
+$background-banner-index: url('../assets/banner-background.jpeg'); 
+
+/*M A P A S*/
+//Declaramos el mapa a leer
+$my-font-sizes:(
+    xs:  10em,
+    sm:  14em,
+    md:  18em,
+    xl:  22em,
+);
+//  ☝      ☝
+// pepe   pipi
+
+@each $pepe, $pipi in $my-font-sizes{
+    .kfz-#{$pepe}{
+        font-size: $pipi;
+        color: $color-primary;
+        font-weight:$extra-bold;
+    }
+}
+
+$color-rrss: (
+    instagram: #d94077,
+    threads: #07076e,
+    whatsapp: #671313,
+);
+//  chacha     chichi
+@each $chacha, $chichi in $color-rrss{
+    .color-rrss-#{$chacha}{
+        color: $chichi; 
+        &:hover{
+            box-shadow: 1px 1px 1px 1px $chichi;
+        }
+    }
+}
+

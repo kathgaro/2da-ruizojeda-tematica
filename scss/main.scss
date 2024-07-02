@@ -1,0 +1,10 @@
+// Reset
+@import './config/vars';
+@import './config/mixins';
+@import './config/reset';
+
+// Layout - Estructura html
+@import './cabeza';
+@import './principal';
+@import './pie';
+// Media queries - Tablet y Mobile

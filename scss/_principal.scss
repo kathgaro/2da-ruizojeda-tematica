@@ -1,0 +1,24 @@
+.contenedor{
+    &-card{
+        width: 20em;
+        border-radius: 16px;
+        border: 1px solid $color-primary;
+        margin-bottom: 1em;
+        &-img{
+            width: 100%;
+            border-radius: 16px;
+        }
+    }
+    &-description{
+        color: $color-primary;
+        margin: 1em;
+        font-weight: $regular;
+    }
+    &-btn{
+        background-color:  $color-primary;
+        color: #f0eded;
+        border-radius: 10px;
+        @include espacios (0.5em, 1em);
+        width: 90%;
+    }
+}

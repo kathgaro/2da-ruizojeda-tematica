@@ -1,0 +1,14 @@
+//mixin con parametros
+//       nombre  👇 varibales - ancho y un alto
+  //      👇
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+// Declarar @mixin
+// invocar @include
+ @mixin espacios($p,$m){
+    padding: $p;
+    margin: $m;
+ }
+ 

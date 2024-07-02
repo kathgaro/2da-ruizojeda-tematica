@@ -1,0 +1,35 @@
+/*footer*/
+.pie{
+    grid-area: footer;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+    .w-img{
+        width: 120px;
+    }
+    .k{ 
+        &__tw{
+            width: 16px;
+            height: 16px;
+        }
+        &__fb{
+            width: 16px;
+            height: 16px;
+        }
+        &__wsp{
+            width: 16px;
+            height: 16px;
+        }
+        &__lkn{
+            width: 16px;
+            height: 16px;;
+        }
+    }
+}
+.clase{
+    border: 1px black solid;
+    &:hover{
+        background-color: red;
+    }
+}
